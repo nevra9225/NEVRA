@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEVRA</title>
+  <style>
+    /* ===== ESTILOS GENERALES ===== */
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #4B1E2F; /* Bordó */
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(75, 30, 47, 0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #FFD700; /* dorado al pasar el mouse */
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      color: #FFD700; /* dorado */
+    }
+
+    p {
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    /* Botón */
+    .btn {
+      background: #FFD700;
+      color: #4B1E2F;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e6c200;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>NEVRA</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- ===== SECCIONES ===== -->
+  <section id="inicio">
+    <h2>Bienvenidos a NEVRA</h2>
+    <p>Diseño y decoración inspirada en la naturaleza, las formas y la elegancia minimalista.</p>
+    <a href="#productos" class="btn">Ver productos</a>
+  </section>
+
+  <section id="productos">
+    <h2>Productos</h2>
+    <p>Lámparas, vinilos y objetos decorativos diseñados con estilo contemporáneo y natural.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <p>Ofrecemos diseño personalizado para hogares y espacios, creando atmósferas únicas.</p>
+  </section>
+
+  <section id="nosotros">
+    <h2>Sobre NEVRA</h2>
+    <p>Somos un estudio de diseño que combina creatividad, naturaleza y funcionalidad para transformar tus espacios.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Escribinos para consultas o proyectos personalizados.</p>
+    <a href="mailto:tuemail@nevra.com" class="btn">Enviar correo</a>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 NEVRA - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
